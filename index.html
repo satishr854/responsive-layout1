@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .clearfix::after{content: "";
+        display: block;
+        clear: both;
+
+        }
+        .wraper{width: 100%;
+            height: 200px;
+            background-color: grey;
+        }
+        .nav{width: 1200px;
+            background-color: aqua;
+            text-align: center;
+            margin:0 auto;
+
+        }
+        ul{float: right;
+            font-size: 25px;
+        list-style: none;
+        font-family: 'Courier New', Courier, monospace;
+        
+        }
+        li{float: right;
+            margin-right: 60px
+        }
+        .nav button{ float: left;
+            font-size: 30px;
+            margin-top: 15px;
+
+        }
+        .wraper h1{font-size: 50px;
+            margin-top: 20px;
+            
+
+        }
+        .wraper span{font-size: 50px;
+                margin-top: 3%;
+                float: right;
+                
+                margin-right: 15px;
+            }
+            .main {margin: 0 auto;
+                text-align: center;
+                margin-top: 100px;
+
+
+            }
+            .main h2{font-size: 70px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+            .main p{font-size: 30px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-top: 30px;
+            margin: 0 auto;
+                text-align: center;
+                width: 30%;
+
+            }
+            .main img{ border-radius: 100%;
+                background-attachment:fixed ;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                
+                
+
+            }
+            .response h4{ margin: 0 auto;
+                text-align: center;
+                font-size: 80px;
+                margin-top: 100px;
+                font-family: fantasy;
+
+            }
+            .response p{ margin: 0 auto;
+                text-align: center;
+                font-size: 40px;
+                margin-top: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 60%;
+                
+
+            }
+            @media only screen and ( max-width:"1154px") {
+                .nav{width: 100%;
+
+                }
+                
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wraper clearfix ">
+        <h1>welcome</h1>
+        <span class="fa  fa-align-justify" >menu</span>
+        <div class="nav">
+        <ul>
+          
+            <li>home </li>
+            <li>search by </li>
+            <li>contact </li>
+            <li>login </li>
+        
+        </ul>
+        <button> more !</button>
+     </div>
+    </div>
+    <div class="main">
+        <h2> game on!</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa optio, quos magnam al</p>
+    <img src="../image.jpeg/jiraf.jpeg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos, enim quibusdam molestias voluptas nihil esse provident ad, dolorum iusto ullam reiciendis, repudiandae magni quasi dolor perferendis possimus. Asperiores, amet.</p>
+
+    </div>
+    <div class="response">
+        <h4> responsive lay out</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus alias voluptatibus doloribus fugiat unde suscipit, maiores dicta est porro id vitae sequi repudiandae dolorum voluptatum ipsam sapiente quasi molestias velit.</p>
+    </div>
+
+</body>
+</html>
